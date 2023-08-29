@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#timeSheets_list div{
+    position: relative;
+    width: 20vw;
+}
+
+#timeSheets_list div img{
+    max-width: 100%;
+}
+
+#timeSheets_list div h1{
+    position: absolute;
+    bottom: -5%;
+    width: 100%;
+    background-color: rgba(99, 99, 148, 0.26);
+}
+
+@media (max-width: 720px) {
+    #timeSheets_list div{
+        width: 100vw;
+    }
+}
