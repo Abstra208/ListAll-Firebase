@@ -26,7 +26,6 @@ listAll(listRef)
 
                     imgElement.src = url;
                     imgElement.alt = itemRef.name;
-                    divElement.className = image_classe;
 
                     h1Element.textContent = itemRef.name;
 
