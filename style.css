@@ -5,12 +5,13 @@ body{
 #timeSheets_list {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    font-size: small;
 }
 
 #timeSheets_list div{
     position: relative;
-    width: 20vw;
-    border: green 1px solid;
+    height: 20vw;
 }
 
 #timeSheets_list div img{
@@ -19,8 +20,9 @@ body{
 
 #timeSheets_list div h1{
     position: absolute;
-    top: 100;
+    bottom: 0%;
     width: 100%;
+    z-index: 2;
     background-color: rgba(99, 99, 148, 0.26);
 }
 

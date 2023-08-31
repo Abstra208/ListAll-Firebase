@@ -26,6 +26,7 @@ listAll(listRef)
 
                     imgElement.src = url;
                     imgElement.alt = itemRef.name;
+                    divElement.className = image_classe;
 
                     h1Element.textContent = itemRef.name;
 
@@ -40,3 +41,4 @@ listAll(listRef)
     }).catch((error) => {
         console.error("Erreur lors de la récupération de la liste :", error);
 });
+
