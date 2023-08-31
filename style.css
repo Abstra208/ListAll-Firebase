@@ -2,19 +2,24 @@ body{
     margin: 0;
     padding: 0;
 }
+#timeSheets_list {
+    display: flex;
+    flex-direction: row;
+}
 
 #timeSheets_list div{
     position: relative;
     width: 20vw;
+    border: green 1px solid;
 }
 
 #timeSheets_list div img{
-    max-width: 100%;
+    max-height: 100%;
 }
 
 #timeSheets_list div h1{
     position: absolute;
-    bottom: -5%;
+    top: 100;
     width: 100%;
     background-color: rgba(99, 99, 148, 0.26);
 }
