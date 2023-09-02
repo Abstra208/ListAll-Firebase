@@ -26,8 +26,13 @@ body{
     background-color: rgba(99, 99, 148, 0.26);
 }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
+    #timeSheets_list {
+        flex-direction: column;
+    }
+
     #timeSheets_list div{
         width: 100vw;
+        height: auto;
     }
 }
