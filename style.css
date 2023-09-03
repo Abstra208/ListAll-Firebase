@@ -26,13 +26,50 @@ body{
     background-color: rgba(99, 99, 148, 0.26);
 }
 
+#big_image_content{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+#big_image_content img{
+    height: 100vh;
+}
+
+#big_image_content h1{
+    position: absolute;
+    bottom: 0%;
+}
+
+#closeBigPicture{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 5vh;
+    background-color: blue;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#big_image_groupe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 720px) {
     #timeSheets_list {
         flex-direction: column;
-    }
-
-    #timeSheets_list div{
-        width: 100vw;
-        height: auto;
     }
 }
